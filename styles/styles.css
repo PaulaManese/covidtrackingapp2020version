@@ -1,0 +1,69 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 0px !important;
+}
+
+
+.mapContainer {
+    min-height: 70vh;
+    width: 100%;
+}
+
+.navbar-nav > a, .nav-link{
+    justify-content: right !important;
+    text-align: right !important;
+}
+
+.landing-page{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-image: url(../public/landing-img.jpg);
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.landing-page > h1{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.countries-list{
+    margin: 20px;
+}
+
+.country{
+    margin-bottom: 20px;
+}
+
+.search-name{
+    font-weight: 200;
+}
+
+.top-head-text{
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.doughnut-chart{
+    margin-bottom: 50px;
+}
